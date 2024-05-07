@@ -1,0 +1,37 @@
+.taskCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 3px 3px rgb(214, 213, 213);
+}
+.taskCard span {
+  display: block;
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+.taskCard span svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 15px;
+  width: 15px;
+}
+.taskCard span:first-child {
+  background-color: rgb(238, 233, 247);
+}
+.taskCard input {
+  flex: 1;
+  height: 60px;
+  font-size: 18px;
+  border: 0px;
+}
+.taskCard:hover {
+  box-shadow: 2px 2px 5px 5px rgb(214, 213, 213);
+}
